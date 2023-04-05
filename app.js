@@ -11,14 +11,14 @@ function tossCoin(e) {
   message.innerHTML = "Computer Selected " + computerGuess + "<br>";
   let output;
   if (playerGuess === computerGuess) {
-    output = "Player Wins ";
+    output = "You Win ";
     score[0]++;
   } else {
     output = "Computer Wins ";
     score[1]++;
   }
   message.innerHTML +=
-    output + "<br> Player " + score[0] + "Computer " + score[1];
+    output + "<br> You: " + score[0] + " " + "Computer: " + score[1];
 }
 
 for (let i = 0; i < buttons.length; i++) {
