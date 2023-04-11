@@ -18,7 +18,7 @@
 }
 
 .headsBtn,
-.tailsBtn {
+.tailsBtn, .playAgainBtn {
   background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
   border: none;
   border-radius: 15%;
@@ -26,4 +26,8 @@
   text-align: center;
   font-family: "Delicious Handrawn", cursive;
   font-size: 48px;
+}
+
+.playAgainBtn {
+  margin: 20px;
 }
